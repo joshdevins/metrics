@@ -65,14 +65,14 @@
 
     <distributionManagement>
         <snapshotRepository>
-            <id>soundcloud.internal.snapshots</id>
-            <name>SoundCloud Internal - Snapshots</name>
-            <url>http://maven.int.s-cloud.net/content/repositories/snapshots</url>
+            <id>soundcloud.thirdparty.snapshots</id>
+            <name>SoundCloud 3rd Party - Snapshots</name>
+            <url>http://maven.int.s-cloud.net/content/repositories/thirdparty_snapshots</url>
         </snapshotRepository>
         <repository>
-            <id>soundcloud.internal.releases</id>
-            <name>SoundCloud Internal - Releases</name>
-            <url>http://maven.int.s-cloud.net/content/repositories/releases</url>
+            <id>soundcloud.thirdparty.releases</id>
+            <name>SoundCloud 3rd Party - Releases</name>
+            <url>http://maven.int.s-cloud.net/content/repositories/thirdparty_releases</url>
         </repository>
     </distributionManagement>
 
