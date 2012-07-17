@@ -4,7 +4,7 @@
 
     <groupId>com.yammer.metrics</groupId>
     <artifactId>metrics-parent</artifactId>
-    <version>2.2.0.joshdevins</version>
+    <version>3.0.0.joshdevins-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Metrics Parent</name>
     <description>
