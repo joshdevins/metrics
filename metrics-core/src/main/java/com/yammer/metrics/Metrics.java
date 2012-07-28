@@ -18,7 +18,7 @@ public class Metrics {
     };
 
     static {
-        JmxReporter.startDefault(DEFAULT_REGISTRY);
+        // JmxReporter.startDefault(DEFAULT_REGISTRY); // don't start by default
         Runtime.getRuntime().addShutdownHook(SHUTDOWN_HOOK);
         DEFAULT_REGISTRY.addListener(DEFAULT_LISTENERS_REGISTRY);
     }
